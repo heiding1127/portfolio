@@ -6,14 +6,14 @@
 body, p {
   font-weight : 300;
   font-size: 16px;
-  line-height: 29px;
+  line-height: 28px;
   font-family: proxima-nova, sans-serif;
   color:#373737;
 }
 
 h1 {
   font-size: 45px;
-  line-height: 60px;
+  line-height: 50px;
   font-weight : 100;
   font-family: proxima-nova, sans-serif;
   color: #373737;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-size: 25px;
-  line-height: 40px;
+  line-height: 37px;
   font-weight : 300;
   font-family: proxima-nova, sans-serif;
   color: #373737;
@@ -40,7 +40,7 @@ h2 {
 
 #logo {
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 200px;
 }
 
@@ -59,7 +59,7 @@ h2 {
   display: block;
   margin-left: 130px;
   text-align: right;
-  margin-top: 46px;
+  margin-top: 40px;
 }
 
 #mainnav { font-size: 0px; }
@@ -86,7 +86,7 @@ h2 {
 .double-space2 { height: 300px; }
 
 .section {
-  min-height: 1000px;
+  min-height: 100%;
   overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ h2 {
 #work { }
 #about { background : url(http://tariqfaridfoundation.org/images/map-white.jpg) 50% 0 repeat fixed;  }
 
-.centered-wrapper { margin: 0 auto; padding: 10px; text-align: left; max-width: 945px; overflow: hidden;}
+.centered-wrapper { margin: 0 auto; padding-left: 8px; padding-right: 8px; text-align: left; max-width: 945px; overflow: hidden;}
 
 
 .section p.box { text-align: left; }
@@ -115,14 +115,20 @@ h2 {
   box-sizing: border-box;
 }
 
-.footer{
+#footer{
   margin: 0 auto;
-  padding: 50px;
   text-align: left;
   max-width: 100%;
-  background-color:#EFB73A;
   overflow: hidden;
+  background-color:#EFB73A;
+  height: 280px;
+  width: 100%;
+  padding: 10px;
 }
+
+
+
+
 
 .menu-icon {
   display:none;
@@ -135,10 +141,9 @@ h2 {
   -ms-background-size:100%;
   -o-background-size:100%;
   background-size:100%;
-  right: 20px;
-  top:78px;
+  top:61px;
+  left: inherit;
   cursor:pointer;
-  color: #373737;
 }
 
 
@@ -147,7 +152,7 @@ h2 {
   width: 250px;
   background-color: #EFB73A;
   border-radius: 10px;
-  position: absolute;
+  position: inline-block;
   font-family: proxima-nova, sans-serif;
   font-size: 14px;
   text-align: center;
