@@ -283,9 +283,9 @@ h6{
 }
 
 
-.btn{
+.button{
   height: 45px;
-  width: 250px;
+  width: 300px;
   background-color: #EFB73A;
   border-radius: 10px;
   position: inline-block;
@@ -295,6 +295,7 @@ h6{
   font-weight: 700;
   color: #373737;
   margin-top: 40px;
+  margin-right: 40px;
 }
 
 
