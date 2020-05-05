@@ -9,7 +9,7 @@ body, p {
   line-height: 25px;
   font-family: proxima-nova, sans-serif;
   color:#373737;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 h1 {
@@ -31,12 +31,38 @@ h2 {
 
 
 h3 {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 22px;
+  font-weight : 700;
+  font-family: proxima-nova, sans-serif;
+  color: #373737;
+  margin-top: 25px;
+}
+
+
+h4 {
+  font-size: 23px;
+  line-height: 37px;
   font-weight : 500;
   font-family: proxima-nova, sans-serif;
   color: #373737;
   margin-top: 25px;
+}
+
+h5 {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight : 700;
+  font-family: proxima-nova, sans-serif;
+  color: #373737;
+  margin-bottom: 5px;
+}
+
+h6{
+  font-size: 40px;
+  line-height: 45px;
+  font-weight : 500;
+  font-family: proxima-nova, sans-serif;
 }
 
 #wrapper{
@@ -130,6 +156,22 @@ h3 {
   overflow: hidden;
 }
 
+.gray-bg-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.red-bg-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: #FFF7F6;
+}
+
 #project{
   margin: 0 auto;
   max-width: 100%;
@@ -176,9 +218,39 @@ h3 {
   border: 1px solid rgba(0,0,0,0.2);
 }
 
-.banner img {
-  max-height: 477.07px;
+
+
+.pigeonhole {
+  display: flex;
+  flex-flow: row-reverse;
+  background-image: linear-gradient(to right, #F47E71, #E16153);
 }
+
+
+.pigeonhole img {
+  margin-top: 20px;
+  display: block;
+  max-height: 420px;
+}
+
+
+.title {
+  padding-top: 130px;
+  padding-right: 75px;
+  color: white;
+  margin-top: 50px;
+}
+
+.title h1 {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+.content {
+  margin: 25px 50px;
+}
+
 
 
 #footer{
