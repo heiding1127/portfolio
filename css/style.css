@@ -333,6 +333,27 @@ h6{
 }
 
 
+svg {
+  width: 20px;
+  display: block;
+  margin: 10px auto;
+
+  .arrow {
+    animation: scroll .35s ease-in alternate infinite;
+  }
+}
+}
+
+@keyframes scroll {
+0% {
+  transform: translateY(0);
+}
+100% {
+  transform: translateY(10px);
+}
+}
+
+
 
 @media only screen and (max-width:319px) {
   .centered-wrapper { width: 94% !important; }
