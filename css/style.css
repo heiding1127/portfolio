@@ -71,7 +71,7 @@ h6{
   margin-right: 10px;
 }
 
-#header {
+header {
   height: 110px;
   width: 100%;
   position: fixed;
@@ -162,18 +162,12 @@ h6{
 .gray-bg-wrapper {
   margin-top: 40px;
   margin-bottom: 40px;
+  padding-bottom: 20px;
   max-width: 100%;
   overflow: hidden;
   background-color: #f2f2f2;
 }
 
-.red-bg-wrapper {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  max-width: 100%;
-  overflow: hidden;
-  background-color: #FFF7F6;
-}
 
 #project{
   margin: 0 auto;
@@ -267,18 +261,51 @@ h6{
   background-color: #EFEFEF;
 }
 
-.container{
-  padding: 0px 80px 20px 130px;
+.column{
+  padding-top:20px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.column-container{
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
-.column{
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+
+.column-container img{
+  max-width: 250px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 50px;
 }
+
+
+.pigeonhole-data {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.pigeonhole-data img {
+  max-width: 600px;
+  padding-right: 30px;
+}
+
+.pigeonhole-data1 {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: blue;
+}
+
+.row{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
 
 #footer{
   margin: 0 auto;
@@ -320,32 +347,35 @@ h6{
 }
 
 
+
 .button{
   height: 40px;
-  max-width: 300px;
+  max-width: 100%;
   background-color: #EFB73A;
-  border-radius: 10px;
+  border-radius: 5px;
   position: inline-block;
   font-family: proxima-nova, sans-serif;
   font-size: 14px;
-  padding: 15px 25px;
+  padding: 8px 25px;
   text-align: center;
   font-weight: 700;
   color: #373737;
   text-decoration: none;
+  margin-top: 30px;
 }
-
 
 .button:hover, .button:active{
   background-color: #E09B00;
 }
 
-.button-space {
-  height: 30px;
+.button-wrapper{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.button-box{
-  
+.button-space{
+  height: 30px;
 }
 
 
