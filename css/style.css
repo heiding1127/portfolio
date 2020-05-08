@@ -403,6 +403,11 @@ header {
   padding-right: 30px;
 }
 
+.low-fi-text{
+  color: #E55F4F;
+}
+
+
 
 .pigeonhole-branding{
   margin: 0 auto;
@@ -440,17 +445,36 @@ header {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .pigeonhole-ab-test-img img{
   max-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 20px;
+}
+
+.pigeonhole-ab-test-img h5{
+  font-weight: 500;
+  font-size: 30px;
+  color: #E55F4F;
 }
 
 
+.pigeonhole-final {
+  height: 640px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-image: linear-gradient(to right, #F47E71, #E16153);
+}
 
+.pigeonhole-final img {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-bottom: 70px;
+}
 
 
 
