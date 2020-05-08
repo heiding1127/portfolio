@@ -551,9 +551,6 @@ header {
 
 
 
-@bg: #2d2d37; // Dark blue
-@primary: #fd6b21; // Orange
-
 body { background: @bg;}
 a { color: #373737; text-decoration: none; }
 
@@ -578,16 +575,6 @@ a { color: #373737; text-decoration: none; }
     transform: translateY(-15px);
   }
 }
-
-@keyframes scroll {
-0% {
-  transform: translateY(0);
-}
-100% {
-  transform: translateY(10px);
-}
-}
-
 
 
 
