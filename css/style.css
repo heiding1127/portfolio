@@ -77,57 +77,131 @@ li style{
 }
 
 header {
-  height: 110px;
-  width: 100%;
-  position: fixed;
-  top: 0px;
   background-color: #fff;
-  border-bottom:1px solid #fff;
-  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
-#logo {
-  float: left;
-  margin-top: 10px;
-  width: 200px;
+.main-logo{
 }
 
-.logo {
-  font-size: 30px;
-  line-height: 100px;
-  padding:9px;
-  font-family: proxima-nova, sans-serif;
-  font-weight: 100;
+.main-logo h6{
+  font-size: 40px;
+  font-weight: 300;
+  color: #373737;
   text-transform: uppercase;
-  color: #373737;
+}
+
+.main-logo img{
+  max-width: 60px;
 }
 
 
-#navigation {
+.mainnavi {
+  background-color: red;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.mainnavi ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.mainnavi li a {
   display: block;
-  margin-left: 130px;
-  text-align: right;
-  margin-top: 40px;
-}
-
-#mainnav { font-size: 0px; }
-
-#mainnav li {
-  display: inline-block;
-  font-size: 16px;
-  margin: 15px;
-}
-
-#mainnav li:last-child { margin-right: 0px; }
-
-#mainnav li a {
+  padding: 20px 20px;
+  border-right: 1px solid #f4f4f4;
   text-decoration: none;
-  color: #373737;
 }
 
-#mainnav li a:hover {
-  color: #999;
+.mainnavi li a:hover {
+  background-color: blue;
 }
+
+.mainnavi .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.mainnavi .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.mainnavi .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.mainnavi .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.mainnavi .menu-icon .navicon:before,
+.mainnavi .menu-icon .navicon:after {
+  background: #333;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.mainnavi .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.mainnavi .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.mainnavi .menu-btn {
+  display: none;
+}
+
+.mainnavi .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.mainnavi .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.mainnavi .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.mainnavi .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.mainnavi .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.mainnavi .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+
 
 
 .single-space { height: 30px; }
@@ -159,7 +233,6 @@ header {
 
 .centered-wrapper {
   margin: 0 auto;
-  text-align: left;
   max-width: 945px;
   overflow: hidden;
 }
@@ -191,6 +264,12 @@ header {
 
 .box {
   margin: 0 auto;
+}
+
+.box img{
+  float: right;
+  height: 60%;
+  width: 60%;
 }
 
 .box h2{
@@ -658,7 +737,9 @@ a { color: #373737; text-decoration: none; }
   }
 
   .box img{
+    float: right;
     width: 100%;
+    padding-right: 0px;
   }
 
 
@@ -723,6 +804,7 @@ a { color: #373737; text-decoration: none; }
 
   .pigeonhole-data img {
     width: 100%;
+    padding-right: 0px;
   }
 
   .flex-row{
@@ -752,7 +834,8 @@ a { color: #373737; text-decoration: none; }
 
   .pigeonhole-competitive img {
     padding-top: 50px;
-    max-width: 250px;
+    padding-left: 0px;
+    max-width: 200px
   }
 
   .pigeonhole-content{
@@ -762,12 +845,13 @@ a { color: #373737; text-decoration: none; }
 
   .pigeonhole-persona {
     display: inline-flex;
-    justify-content: center
+    justify-content: center;
   }
 
   .pigeonhole-persona img {
     padding-bottom: 30px;
     max-width: 100%;
+    padding-right: 0px;
   }
 
   .pigeonhole-persona-content {
@@ -789,6 +873,7 @@ a { color: #373737; text-decoration: none; }
     max-width: 100%;
     display: inline-flex;
     flex-direction: column;
+    margin-left: 0px;
   }
 
   .pigeonhole-user-flow1 img{
@@ -813,11 +898,14 @@ a { color: #373737; text-decoration: none; }
   .low-fi-comment .column{
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 0px;
   }
 
   .low-fi-text{
     color: #E55F4F;
   }
+
+  .low-fit
 
 
 
@@ -889,8 +977,9 @@ a { color: #373737; text-decoration: none; }
   .pigeonhole-final img {
     max-width: 100%;
     padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
   }
-
 
 
 
