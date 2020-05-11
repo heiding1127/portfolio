@@ -583,6 +583,10 @@ a { color: #373737; text-decoration: none; }
 
 
 
+
+
+
+
 @media only screen and (max-width:575px) {
   .centered-wrapper { width: 93% !important; }
   #navigation {
@@ -627,6 +631,12 @@ a { color: #373737; text-decoration: none; }
 
   .button-space{height:0px;}
 
+
+  #wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
   #project{
     margin: 0 auto;
     max-width: 100%;
@@ -647,8 +657,281 @@ a { color: #373737; text-decoration: none; }
     text-align: center;
   }
 
+  .box img{
+    width: 100%;
+  }
+
+
+  .pigeonhole {
+    display: flex;
+    flex-flow: column-reverse;
+    background-image: linear-gradient(to right, #F47E71, #E16153);
+  }
+
+
+  .pigeonhole img {
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+  }
+
+
+  .title {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 65px;
+    color: white;
+  }
+
+  .title h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    justify-content: space-around;
+  }
+
+  .title li{
+    text-align: center;
+  }
+
+
+  .content {
+    padding: 25px 20px;
+  }
+
+  .column{
+    padding-top:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+  .pigeonhole-data {
+    padding-top: 30px;
+    display: inline-flex;
+    justify-content: space-b;
+  }
+
+  .pigeonhole-data img {
+    width: 100%;
+  }
+
+  .flex-row{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .pigeonhole-data1 {
+    padding-top: 50px;
+    max-width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+
+  .row{
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+
+  .pigeonhole-competitive {
+    padding-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .pigeonhole-competitive img {
+    padding-top: 50px;
+    max-width: 250px;
+  }
+
+  .pigeonhole-content{
+    max-width: 100%;
+  }
+
+
+  .pigeonhole-persona {
+    display: inline-flex;
+    justify-content: center
+  }
+
+  .pigeonhole-persona img {
+    padding-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .pigeonhole-persona-content {
+    width: 100%;
+  }
+
+
+
+  .pigeonhole-user-flow{
+    display: inline-flex;
+    justify-content: ;
+  }
+
+  .pigeonhole-user-flow img{
+    max-width: 100%;
+  }
+
+  .pigeonhole-user-flow1{
+    max-width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .pigeonhole-user-flow1 img{
+    max-width: 100%;
+  }
+
+
+
+
+  .low-fi img{
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .low-fi-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .low-fi-comment .column{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .low-fi-text{
+    color: #E55F4F;
+  }
+
+
+
+  .pigeonhole-branding{
+    margin: 0 auto;
+  }
+
+  .brand-container{
+    padding-top: 45px;
+    padding-bottom: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .pigeonhole-branding img{
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  .hi-fi-screen img{
+    max-width: 100%;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 30px;
+  }
+
+
+
+
+  .pigeonhole-ab-test{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+  .pigeonhole-ab-test-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .pigeonhole-ab-test-img img{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pigeonhole-ab-test-img h5{
+    padding-bottom: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #E55F4F;
+  }
+
+
+
+
+  .pigeonhole-final {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: linear-gradient(to right, #F47E71, #E16153);
+  }
+
+  .pigeonhole-final img {
+    max-width: 100%;
+    padding-left: 20px;
+  }
+
+
+
+
+
+
+
+  .button{
+    height: 40px;
+    max-width: 100%;
+    background-color: #EFB73A;
+    border-radius: 5px;
+    position: inline-block;
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    padding: 8px 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #373737;
+    text-decoration: none;
+    margin-top: 30px;
+  }
+
+  .button:hover, .button:active{
+    background-color: #E09B00;
+  }
+
+  .button-wrapper{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .button-space{
+    height: 30px;
+  }
+
 
 }
+
+
 
 
 
@@ -696,6 +979,10 @@ a { color: #373737; text-decoration: none; }
 
   .menu-icon { display:block !important; right: 20px; }
 }
+
+
+
+
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
   .centered-wrapper { width: 96% !important; }
