@@ -309,7 +309,8 @@ li{
   padding-top: 60px;
 }
 
-
+body {background-color: none;}
+a{text-decoration: none; color: #373737;}
 
   .arrow {
     text-align: center;
