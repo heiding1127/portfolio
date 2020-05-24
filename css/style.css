@@ -231,7 +231,7 @@ li{
 }
 
 .single-space { height: 50px; }
-.double-space { height: 110px; }
+.double-space { height: 100px; }
 .button-space {height:15px;}
 
 
@@ -306,7 +306,7 @@ li{
   font-size:80px;
   font-style: normal;
   line-height: 95px;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 body {background-color: none;}
@@ -489,6 +489,7 @@ a{text-decoration: none; color: #373737;}
 /* Pigeonhole */
 
 .pigeonhole{
+  margin-top: 10px;
   display: flex;
   flex-flow: column;
   background-image: linear-gradient(to right, #F47E71, #E16153);
@@ -804,7 +805,7 @@ a{text-decoration: none; color: #373737;}
 
   /*homepage top start*/
   .intro h1{
-    padding-top: 130px;
+    padding-top: 80px;
   }
   /*homepage top ends*/
 
@@ -890,7 +891,7 @@ a{text-decoration: none; color: #373737;}
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 15px;
   }
 
   .profile img{
@@ -900,7 +901,7 @@ a{text-decoration: none; color: #373737;}
 
 
   .top-bio{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 0px;
     width: 100%;
   }
@@ -972,6 +973,7 @@ a{text-decoration: none; color: #373737;}
   /* Pigeonhole */
 
   .pigeonhole{
+    margin-top: 20px;
     display: flex;
     flex-flow: row;
     background-image: linear-gradient(to right, #F47E71, #E16153);
@@ -1233,7 +1235,7 @@ a{text-decoration: none; color: #373737;}
     flex-direction: row;
     justify-content: space-between;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 15px;
   }
 
   .profile img{
